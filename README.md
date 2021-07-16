@@ -4,7 +4,7 @@ Julia code implementing an lmer extension to the rERP method (Smith and Kutas, 2
 
 This code accompanies the publication by Aurnhammer, Schulz, Delogu, Brouwer, Crocker (subm.).
 
-Unzip data.zip to access the ERP data in the root directory. The resulting datasets described in the article can be downloaded from https://osf.io/nrb4t/ .
+Data and plots described in the article can be downloaded from https://osf.io/nrb4t/ . Datasets are to be placed in the respective (ERP or SPR) data directories.
 
 ###########
 
