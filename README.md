@@ -1,13 +1,14 @@
-# lmerERP: 
-
 Julia code implementing an lmer extension to the rERP method (Smith and Kutas, 2015a, 2015b. See also Brouwer, Delogu, Crocker, 2021). 
 
-This code accompanies the publication by Aurnhammer, Schulz, Delogu, Brouwer, Crocker (subm.).
+This code accompanies the publication by Aurnhammer, Delogu, Schulz, Brouwer, Crocker (subm.).
 
-Data and plots described in the article can be downloaded from https://osf.io/nrb4t/ . Datasets are to be placed in the respective (ERP or SPR) data directories.
+The original ERP data as well as the fitted datasets described in the article can be downloaded from https://osf.io/nrb4t/ . Datasets are to be placed in the ./data/ directory.
 
-###########
+################################
+# PACKAGE and CODE information #
+################################
 
+The Julia code implements data pre-processing and fitting of lmerEPR models.
 Developed on Julia version 1.5.1.
 Using Packages: 
 
@@ -21,10 +22,7 @@ Using Packages:
 
 [2dfb63ee] PooledArrays v0.5.3
 
-###########
-
 R code used for plotting estimated waveforms, residuals, coefficients, z-values. 
-
 Developed on R version 3.6.1. Using Packages:
 
 data.table 1.12.8
@@ -35,8 +33,22 @@ grid 3.6.1
 
 gridExtra 2.3
 
-##########
-References: 
+#################
+# ABBREVIATIONS #
+#################
+
+cl : Cloze
+srp : log(Cloze) (Suprisal)
+rcnoun : association rating of the adverbial clause noun
+rcverb : association rating of the adverbial clause verb
+spr : self-paced reading
+ERP : event-related potential
+est : estimated data
+res : residual error
+
+##############
+# References # 
+##############
 
 Brouwer, H., Delogu, F., & Crocker, M. W. (2021). Splitting Event‐Related Potentials:
   Modeling Latent Components using Regression‐based Waveform Estimation. 
