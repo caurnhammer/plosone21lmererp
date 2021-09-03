@@ -4,7 +4,7 @@ This code accompanies the publication by Aurnhammer, Delogu, Schulz, Brouwer, Cr
 
 The original ERP data as well as the fitted datasets described in the article can be downloaded from https://osf.io/nrb4t/ . Datasets are to be placed in the ./data/ directory.
 
-# Package and Code information 
+# Package and code information 
 
 The Julia code implements data pre-processing and fitting of lmerEPR models.
 Developed on Julia version 1.5.1.
