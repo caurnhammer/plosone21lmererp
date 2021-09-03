@@ -4,7 +4,7 @@ This code accompanies the publication by Aurnhammer, Delogu, Schulz, Brouwer, Cr
 
 The original ERP data as well as the fitted datasets described in the article can be downloaded from https://osf.io/nrb4t/ . Datasets are to be placed in the ./data/ directory.
 
-# PACKAGE and CODE information 
+# Package and Code information 
 
 The Julia code implements data pre-processing and fitting of lmerEPR models.
 Developed on Julia version 1.5.1.
@@ -32,7 +32,7 @@ grid 3.6.1
 gridExtra 2.3
 
 
-ABBREVIATIONS
+# Abbreviations
 
 cl : Cloze
 
@@ -50,9 +50,7 @@ est : estimated data
 
 res : residual error
 
-##############
-# References # 
-##############
+# References 
 
 Brouwer, H., Delogu, F., & Crocker, M. W. (2021). Splitting Event‐Related Potentials:
   Modeling Latent Components using Regression‐based Waveform Estimation. 
