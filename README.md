@@ -38,12 +38,19 @@ gridExtra 2.3
 #################
 
 cl : Cloze
+
 srp : log(Cloze) (Suprisal)
+
 rcnoun : association rating of the adverbial clause noun
+
 rcverb : association rating of the adverbial clause verb
+
 spr : self-paced reading
+
 ERP : event-related potential
+
 est : estimated data
+
 res : residual error
 
 ##############
